@@ -1,9 +1,10 @@
 #!/usr/bin/env ruby
 =begin
-Script : reverseip.rb
-Description : Get list website that running on same ip
-Usage : ./reverseip.rb [domainame]
-Author : Mr.Hien (phanquochien@gmail.com)
+  * Name : reverseip.rb
+  * Description : Get list website that running on same ip
+  * License: GPLv3+
+  * Usage : ./reverseip.rb [domainame]
+  * Author : Mr.Hien (phanquochien@gmail.com)
 =end
 
 %w{rubygems nokogiri open-uri socket}.each { |lib| require lib }
